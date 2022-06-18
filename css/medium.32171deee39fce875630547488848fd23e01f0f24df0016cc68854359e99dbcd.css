@@ -149,6 +149,10 @@ section.recent-posts {
     font-size: 0.95rem;
     line-height: 1.6;
     font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5; /* 制限したい行数が3の場合 */
+    overflow: hidden;
 }
 
 .featured-box-img-cover {
